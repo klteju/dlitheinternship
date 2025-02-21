@@ -1,0 +1,17 @@
+max=int(input("enter the total marks : "))
+scores=int(input("enter the score obtained by student: "))
+score=scores/max*100
+print("percentage of a student is" ,score)
+if score>=90:
+    print(" grade is A")
+elif score>=80:
+    print("grade is B")
+elif score>=70:
+    print("grade is C")
+elif score>=60:
+    print("grade is D")
+elif score>=50:
+    print("grade is E")
+else:
+    print("grade is F")
+
