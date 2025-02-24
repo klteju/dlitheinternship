@@ -1,0 +1,10 @@
+num=[5,9,4,6]
+num.sort()
+print(num)
+num=["d","y","i"]
+num.sort()
+print(num)
+num=["teju","bhoomi","bucket"]
+num.append("mana")
+num.sort()
+print(num)
